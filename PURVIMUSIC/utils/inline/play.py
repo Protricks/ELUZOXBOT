@@ -1,8 +1,8 @@
 import math
+
 from pyrogram.types import InlineKeyboardButton
-from PURVIMUSIC import app
-import config
-from PURVIMUSIC.utils.formatters import time_to_seconds
+
+from SONALI.utils.formatters import time_to_seconds
 
 
 def track_markup(_, videoid, user_id, channel, fplay):
@@ -33,25 +33,25 @@ def stream_markup_timer(_, chat_id, played, dur):
     percentage = (played_sec / duration_sec) * 100
     umm = math.floor(percentage)
     if 0 < umm <= 10:
-        bar = "─🅢─────────"
+        bar = "─⚪─────────"
     elif 10 < umm < 20:
-        bar = "──🅞────────"
+        bar = "──⚪────────"
     elif 20 <= umm < 30:
-        bar = "───🅝───────"
+        bar = "───⚪───────"
     elif 30 <= umm < 40:
-        bar = "────🅐──────"
+        bar = "────⚪──────"
     elif 40 <= umm < 50:
-        bar = "─────♡─────"
+        bar = "─────⚪─────"
     elif 50 <= umm < 60:
-        bar = "──────🅡────"
+        bar = "──────⚪────"
     elif 60 <= umm < 70:
-        bar = "───────🅐───"
+        bar = "───────⚪───"
     elif 70 <= umm < 80:
-        bar = "────────🅙──"
+        bar = "────────⚪──"
     elif 80 <= umm < 95:
-        bar = "─────────🅐─"   
+        bar = "─────────⚪─"   
     else:
-        bar = "──────────♡"
+        bar = "──────────⚪"
         
     buttons = [
         [
@@ -69,10 +69,10 @@ def stream_markup_timer(_, chat_id, played, dur):
         ],
       [
             InlineKeyboardButton(
-                text="𝖮ᴡɴᴇʀ 🥀", url="https://t.me/PURVI_SUPPORT",
+                text="𝖮ᴡɴᴇʀ 🥀", url="https://t.me/INTERVAL_DON",
             ),
             InlineKeyboardButton(
-                text="𝖲ᴜᴘᴘᴏʀᴛ 🥀", url="https://t.me/PURVI_UPDATES",
+                text="𝖲ᴜᴘᴘᴏʀᴛ 🥀", url="https://t.me/DON_ABOUTT",
             )
         ],
          [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
@@ -91,10 +91,10 @@ def stream_markup(_, chat_id):
          ],
         [
             InlineKeyboardButton(
-                text="𝖮ᴡɴᴇʀ 🥀", url="https://t.me/PURVI_SUPPORT",
+                text="𝖮𝗐𝗇𝖾𝗋🥀", url="https://t.me/INTERVAL_DON",
             ),
             InlineKeyboardButton(
-                text="𝖲ᴜᴘᴘᴏʀᴛ 🥀", url="https://t.me/PURVI_UPDATES",
+                text="𝖲𝗎𝗉𝗉𝗈𝗋𝗍🥀", url="https://t.me/DON_ABOUTT",
             )
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
@@ -107,11 +107,11 @@ def playlist_markup(_, videoid, user_id, ptype, channel, fplay):
         [
             InlineKeyboardButton(
                 text=_["P_B_1"],
-                callback_data=f"PURVIPlaylists {videoid}|{user_id}|{ptype}|a|{channel}|{fplay}",
+                callback_data=f"ALPHAPlaylists {videoid}|{user_id}|{ptype}|a|{channel}|{fplay}",
             ),
             InlineKeyboardButton(
                 text=_["P_B_2"],
-                callback_data=f"PURVIPlaylists {videoid}|{user_id}|{ptype}|v|{channel}|{fplay}",
+                callback_data=f"ALPHAPlaylists {videoid}|{user_id}|{ptype}|v|{channel}|{fplay}",
             ),
         ],
         [
@@ -171,3 +171,4 @@ def slider_markup(_, videoid, user_id, query, query_type, channel, fplay):
         ],
     ]
     return buttons
+       
