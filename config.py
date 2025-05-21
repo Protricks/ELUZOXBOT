@@ -12,11 +12,11 @@ load_dotenv()
 API_ID = int(getenv("API_ID", "22888371"))
 API_HASH = getenv("API_HASH", "5db016d90307cd3725b07c7b87755769")
 # ------------------------------------------------------
-BOT_TOKEN = getenv("BOT_TOKEN", "7407876454:AAH61Rh8Ca1p1nDeGwR7LIPdh4wMJ4--dR4")
+BOT_TOKEN = getenv("BOT_TOKEN", "7695186077:AAFjdCfSUYOwyGrQxSP4D_YV7n2gU2qmfN4")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","INTERVAL_DON")
+OWNER_USERNAME = getenv("OWNER_USERNAME","majorgameapp")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME","SARKAR_MUSIC_BOT")
+BOT_USERNAME = getenv("BOT_USERNAME","T-MUSICBOT")
 # --------------------------------------------------------
 BOT_NAME = getenv("BOT_NAME")
 # ---------------------------------------------------------
@@ -38,7 +38,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 LOGGER_ID = int(getenv("LOGGER_ID", "-1002077610571"))
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-OWNER_ID = int(getenv("OWNER_ID", "7125902975"))
+OWNER_ID = int(getenv("OWNER_ID", "7688564505"))
 # -----------------------------------------------------------------
 # -----------------------------------------------------------------
 
@@ -64,8 +64,8 @@ GIT_TOKEN = getenv(
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/DON_ABOUTT")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/DON_ABOUTT")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/TSERIES_SUPPORT")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+ZVt4d6AnWpsyYjBl")
 # ------------------------------------------------------------------------------
 # ------------------------------------------------------------------------------
 
@@ -104,7 +104,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "5242880000"))
 # ------------------------------------
 # ------------------------------------
 # ------------------------------------
-STRING1 = getenv("STRING_SESSION", "BQFdP7MAoDSlRJLwjRUdv3sNxIHZH2F85U80Yy4-m73nORKxNP0x5PMQipXZBvJCNRJ2_ATqfkxnOZ0pbFuj0bfHqtBoUG4eniStbU_igWYfgc3aDPp2KW5YccwKhiJ36FHW0l0CToP27Wx9VgYHsc9OaWKiVmAVE8qYpDugZu-_eKxEI4inT-dsyvDzfB89h3d3OHw_5VxiAaT-ubSSEugfTeHxTGlxayFKs7dbVd9n1ANuOeNP-Cs_HGkxjFgrVLi0daJBtdg190jRcrWwprcRJrAbvtlSxyDfhGhuN2McG2fvf0Y9Nub0RQiLMl0yW2WLZBgOlddCbEKhyBwXtWBxyP5ZbwAAAAHV9vORAA")
+STRING1 = getenv("STRING_SESSION", "BQFHClIAvQBZwoT2fycx1QScDMMnTpwZRc3bEYPSVAPnf3W5zq_eh_0iwM9I8o9wJDb0-75uypEX995J4MLVsJtKUqMK-ue7XJFiew3JAY5onJfxKGubYVaVdY_tr-BfDOLO24gQC96Ni0Xh8H4ejf0-SsU5FWVcafDPZSCaRyFWWDAQMX0tGPzKCQnZRodnH_-INHBh8Q-DHJ9AoVY97C5NbGhb0NLHEjV5PIbD2hg4kFfOWG-abQCdm2A0if8p47-F8OTXidznwN4KB1nSSXOJEkWgPSIdKPmO6WHm-2tchjccjfD6bR8qUyBxuj3c8t7AQwzhGkuEgt0DtfLDS-GSjF2isQAAAAF_wtZFAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -131,13 +131,13 @@ confirmer = {}
 # ------------------------------------------------------------------------
 # ------------------------------------------------------------------------
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/5o4ub0.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/w7zybu.jpg"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://files.catbox.moe/5o4ub0.jpg"
 )
 PLAYLIST_IMG_URL = "https://files.catbox.moe/i493lf.jpg"
-STATS_IMG_URL = "https://files.catbox.moe/i0qmgf.jpg"
+STATS_IMG_URL = "https://files.catbox.moe/w7zybu.jpg"
 TELEGRAM_AUDIO_URL = "https://telegra.ph/file/8e3552aa743ffdb6f18c9.jpg"
 TELEGRAM_VIDEO_URL = "https://telegra.ph/file/8e3552aa743ffdb6f18c9.jpg"
 STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
