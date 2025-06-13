@@ -29,8 +29,8 @@ from strings import get_string
 #--------------------------
 
 NEXI_VID = [
-"https://files.catbox.moe/w7zybu.jpg",
-"https://files.catbox.moe/w7zybu.jpg",
+"https://files.catbox.moe/8qboc4.jpg",
+"https://files.catbox.moe/8qboc4.jpg",
 ]
 
 @app.on_message(filters.command(["start"]) & filters.private & ~BANNED_USERS)
