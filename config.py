@@ -12,7 +12,7 @@ load_dotenv()
 API_ID = int(getenv("API_ID", "22888371"))
 API_HASH = getenv("API_HASH", "5db016d90307cd3725b07c7b87755769")
 # ------------------------------------------------------
-BOT_TOKEN = getenv("BOT_TOKEN", "7695186077:AAFjdCfSUYOwyGrQxSP4D_YV7n2gU2qmfN4")
+BOT_TOKEN = getenv("BOT_TOKEN", "7669181124:AAFpQ-NIb6mUSZLSadTXE1FpkrcV7hIHCuk")
 # -------------------------------------------------------
 OWNER_USERNAME = getenv("OWNER_USERNAME","majorgameapp")
 # --------------------------------------------------------
@@ -28,7 +28,7 @@ API_KEY = getenv("API_KEY", "30DxNexGenBots11e228") # youtube song api key, get 
 
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Mafia:Mafia@mafia.wvuzxgl.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://swagger:swagger@cluster0.asbcoy3.mongodb.net/?retryWrites=true&w=majority")
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 
@@ -40,7 +40,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 LOGGER_ID = int(getenv("LOGGER_ID", "-1002077610571"))
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-OWNER_ID = int(getenv("OWNER_ID", "7688564505"))
+OWNER_ID = int(getenv("OWNER_ID", "1888832817"))
 # -----------------------------------------------------------------
 # -----------------------------------------------------------------
 
@@ -55,7 +55,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 # ----------------------------------------------------------------
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/im-notycoder/EXOTICX",
+    "https://github.com/Protricks/ELUZOXBOT",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
@@ -66,7 +66,7 @@ GIT_TOKEN = getenv(
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/TSERIES_SUPPORT")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/botsyard")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+ZVt4d6AnWpsyYjBl")
 # ------------------------------------------------------------------------------
 # ------------------------------------------------------------------------------
@@ -106,7 +106,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "5242880000"))
 # ------------------------------------
 # ------------------------------------
 # ------------------------------------
-STRING1 = getenv("STRING_SESSION", "BQFHClIAebeNsUUif9mX-pORBLUFEmNVWfJIL7yafUgRRsBJKMxf4ox7bnVGEHdRzwQtXRMHPgfqmfH8T_1c6qyeFP9TCZLxUKCaxTS1vDNdkxzgcqaJ3sclf6GWmb1KzfgofNzolvKubgMmXuKxul8AsoZd5IxYvH4Bc--M9yxmzKkArKzVJkaeYGXmNf4sXY4z-dlioWXf21IaBTOfae5Znd6AiNx2GWHMTOb6iJrrsuacQfufuA2YVNBo9xjvFaCeyotP7TKQEDicmIRP8DFCpwu6cwIqYsumt_Qlu_0M6tEedZMNq0A4pzawphjlUqNvUlDulG1co2P4B5KHTzEkIvTUyAAAAAGo0M_tAA")
+STRING1 = getenv("STRING_SESSION", "BQFHClIAGpS7LCNPKrCcLji7b2jJcG6bihBzwGOWWQiTwjPcRhEZD4MJDj41JfxGEu105vfb-oVfiXhIpYvlG2Mg2iFSV17gYiVWQX-I7jwxR7-eMqap7ZnCsSOMBvETuAAIYEZq_VHDlnE-yMh5RUlCW-6W2lbm8i6xP8AwVYTJZUu03EDIuKexLZEASglefWi_M5JoE63uXf2IxEzo7K32MVgfcV2xbzy5mHxIFLiQqUL9Z8NOYkpCwxWSwu73tm7ZfDLqHZTbL0bKTHoCcdFHMNoGh0tJnLwxWPJhIeC27IBsV8XAOToxQuIX0PStHikmBhGn2rxRKMGsgXNXQjCjMRNmuQAAAAGEUVujAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
